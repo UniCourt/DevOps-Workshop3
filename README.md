@@ -8,7 +8,7 @@ capabilities of ELK Stack to centralize, parse, analyze, and visualize logs gene
 ## Prerequisites
 
 - Machine/VM with ubuntu 22.04
-- [Docker](#Install Docker)
+- [Docker](#install-docker)
 - [Git]( https://www.atlassian.com/git/tutorials/install-git#linux )
     - [Create github account](https://github.com/signup)
     - [Setting up SSH key with GitHub for Ubuntu](https://medium.com/featurepreneur/setting-up-ssh-key-with-github-for-ubuntu-cd8f2fabf25b)
