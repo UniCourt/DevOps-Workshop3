@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  web:
+    build: app
+    image: web-server
+    container_name: web-server
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/logs:/var/log/nginx
+    depends_on:
+      - web
